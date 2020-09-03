@@ -31,8 +31,8 @@ if choice_input == "f":
 elif choice_input == "a":
     ab_input = int(input("Input the max number to check: ", ))
 
-    print("Fibonacci Sequence:")
-    print("-------------------")
+    print("Abundant numbers:")
+    print("-----------------")
 
     for i in range(1, ab_input + 1):
         for x in range(1, i):
@@ -65,8 +65,8 @@ elif choice_input == "b":
 
     ab_input = int(input("Input the max number to check: ", ))
 
-    print("Fibonacci Sequence:")
-    print("-------------------")
+    print("Abundant numbers:")
+    print("-----------------")
 
     for i in range(1, ab_input + 1):
         for x in range(1, i):
